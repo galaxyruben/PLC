@@ -31,13 +31,9 @@ namespace PLC.Models
         }
 
         public System.Data.Entity.DbSet<PLC.Models.Car> Cars { get; set; }
-
         public System.Data.Entity.DbSet<PLC.Models.CarDetails> CarDetails { get; set; }
-
         public System.Data.Entity.DbSet<PLC.Models.CarModel> CarModels { get; set; }
-
         public System.Data.Entity.DbSet<PLC.Models.CarType> CarTypes { get; set; }
-
-        public System.Data.Entity.DbSet<PLC.Models.ApplicationUser> ApplicationUsers { get; set; }
+        public System.Data.Entity.DbSet<PLC.Models.CarType> Profile { get; set; }
     }
 }
